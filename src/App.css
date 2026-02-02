@@ -1,0 +1,63 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.input-box {
+  padding: 15px;
+}
+
+.input-box input {
+  width: 120px;
+  height: 30px;
+  font-size: 16px;
+  padding: 5px 10px;
+  border: 1px solid #a3a3a3;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.input-box button {
+  height: 42px;
+  font-size: 16px;
+  padding: 5px 2 5px;
+  border: none;
+  border-radius: 4px;
+  background-color: #2172ec;
+  color: white;
+  cursor: pointer;
+}
+
+.propgress {
+  width: 100%;
+  background-color: rgb(226, 226, 226);
+  height: 24px;
+  border-radius: 14px;
+  position: relative;
+  overflow: hidden;
+}
+
+.propgress .progress-bar {
+  height: 100%;
+  /* background-color: #4caf50; */
+  background-image: linear-gradient(to right, #2476f1, #0828df);
+  border-radius: 14px;
+  animation-name: progress-animation;
+  animation-timing-function: ease;
+
+  /* transition: all ease-in-out; */
+}
+
+
+
+@keyframes progress-animation {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
