@@ -14,16 +14,11 @@ function App() {
 
   console.log("input value", count);
 
-  // console.log("width prog", progressWidth);
 
 
   const startFun = (duration) => {
     setProgressCount(count);
-    // setProgressWidth(!progressWidth);
-    setWCount(100);
-    setTimeout(()=>{
-      setWCount(0);
-    }, 1000)
+    setWCount(100);   
 
   }
 
